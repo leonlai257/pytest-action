@@ -10,3 +10,6 @@ __pycache__/
 .env*.local
 .env
 .env.*
+
+# coverage
+.coverage

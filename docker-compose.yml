@@ -1,0 +1,11 @@
+services:
+  test-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    expose:
+      - "8000"
